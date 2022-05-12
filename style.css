@@ -1,4 +1,4 @@
-@media screen and (max-width: 991px) {
+@media screen and (min-width: 150px) and (max-width: 991px) {
 .no-mp{
     margin:0 ! important;
     padding:0 ! important;
