@@ -1,0 +1,122 @@
+@media screen and (min-width: 992px) {
+.no-mp{
+    margin:0 ! important;
+    padding:0 ! important;
+}
+body {
+    background-color: #202020;
+}
+.fab{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    text-align:center;
+}
+#banner {
+    margin: 0;
+    background-image: url('https://imgur.com/wHwpVFZ.png');
+    height: 600px;
+}
+#banner-logo {
+    margin-top: 210px;
+    margin-bottom: 13px;
+    width: 500px;
+}
+#banner-text {
+    color: rgba(20, 20, 20, 0.85);
+    font-size: 20px;
+    font-weight: 260;
+}
+#destaque {
+    margin-top: 60px;
+}
+#destaque .row {
+    margin-top: 50px;
+}
+h3 {
+    color: #b98a52;
+    margin-top: 100px;
+}
+#goal-icon {
+    max-width: 400px;
+}
+#justice-icon {
+    max-width: 400px;
+}
+#team-icon {
+    max-width: 450px;
+}
+#areas-atuacao {
+    text-align: center;
+    color: #b98a52;
+}
+.card {
+    height: 480px;
+    background-color: #252525;
+}
+.card-img-top{
+    max-width: 230px;
+}
+#contato {
+    margin: 0;
+    height: 620px;
+    background-image: url('https://imgur.com/rZ3mQ3t.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+#contato-bg {
+    padding-top: 20px;
+}
+#contato-items {
+    padding: 20px;
+    height: 485px;
+    background-color: rgba(20, 20, 20, 0.99);
+}
+#contato-items a{
+    text-decoration: none;
+    color: #FFF;
+}
+#contato-title {
+    color: #b98a52;
+    font-size: 25px;
+    font-weight: bold;
+}
+#map-icon {
+    max-width: 25px;
+    margin-top: -10px;
+    margin-left: -5px;
+}
+#time-icon {
+    max-width: 20px;
+    margin-top: -10px;
+}
+#number-icon {
+    max-width: 20px;
+    margin-top: -10px;
+}
+#email-icon {
+    max-width: 25px;
+    margin-top: -10px;
+    margin-left: -2px;
+}
+#insta-icon {
+    max-width: 20px;
+    margin-top: -10px;
+}
+#footer {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+#footer a {
+    text-decoration: none;
+    color: rgb(178, 178, 178);
+}
+#footer a:hover {
+    color: #b98a52;
+}
+}
+@media screen and (max-width: 991px) {
+}
