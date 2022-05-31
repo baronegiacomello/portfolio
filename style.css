@@ -1,238 +1,221 @@
-@media screen and (min-width: 150px) and (max-width: 991px) {
-.no-mp{
-    margin:0 ! important;
-    padding:0 ! important;
-}
-body {
-    background-image: url('bg.svg');
-    background-size: cover;
-}
-.fab{
-    position:fixed;
-    width:60px;
-    height:60px;
-    bottom:40px;
-    right:40px;
-    text-align:center;
-}
-#banner {
-    margin: 0;
-    background-image: url('https://imgur.com/wHwpVFZ.png');
-    height: 500px;
-}
-#banner-logo {
-    margin-top: 200px;
-    margin-bottom: 13px;
-    width: 370px;
-}
-#banner-text {
-    max-width: 300px;
-}
-#destaque .row {
-    margin-top: 50px;
-}
-h3 {
-    color: #b98a52;
-    text-align: center;
-}
-#goal-icon {
-    max-width: 350px;
-}
-#justice-icon {
-    max-width: 350px;
-}
-#team-icon {
-    max-width: 350px;
-}
-#areas-atuacao2 {
-    margin-top: 50px;
-    text-align: center;
-    color: #b98a52;
-}
-.card {
-    margin-top: 30px;
-    height: 430px;
-    background-color: #252525;
-}
-.card-img-top{
-    max-width: 230px;
-}
-#contato2 {
-    margin: 0;
-    height: 650px;
-    background-image: url('https://imgur.com/rZ3mQ3t.png');
-    background-repeat: no-repeat;
-    background-size: 300%;
-    background-position: center;
-}
-#contato-bg {
-    padding-top: 20px;
-}
-#contato-items {
-    padding: 20px;
-    height: 550px;
-    background-color: rgba(20, 20, 20, 0.99);
-}
-#contato-items a{
-    text-decoration: none;
-    color: #FFF;
-}
-#contato-title {
-    color: #b98a52;
-    font-size: 25px;
-    font-weight: bold;
-}
-#map-icon {
-    max-width: 25px;
-    margin-top: -10px;
-    margin-left: -5px;
-}
-#time-icon {
-    max-width: 20px;
-    margin-top: -10px;
-}
-#number-icon {
-    max-width: 20px;
-    margin-top: -10px;
-}
-#email-icon {
-    max-width: 25px;
-    margin-top: -10px;
-    margin-left: -2px;
-}
-#insta-icon {
-    max-width: 20px;
-    margin-top: -10px;
-}
-#footer {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-#footer a {
-    text-decoration: none;
-    color: rgb(178, 178, 178);
-}
-#footer a:hover {
-    color: #b98a52;
-}
+@media screen and (max-width: 992px) {
+    .no-mp{
+        margin:0 ! important;
+        padding:0 ! important;
+    }
+    body {
+        background-image: url('bg.svg');
+        background-size: 100%;
+        background-position: contain;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    #banner {
+        margin: 0;
+        background-image: url('https://imgur.com/wHwpVFZ.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 500px;
+    }
+    #banner-logo {
+        margin-top: 170px;
+        margin-bottom: 13px;
+        width: 400px;
+    }
+    #banner-text {
+        max-width: 360px;
+    }
+    #destaque {
+        margin-top: 60px;
+    }
+    #destaque .row {
+        margin-top: 40px;
+    }
+    h3 {
+        color: #b98a52;
+        text-align: center;
+        margin-top: 20px;
+    }
+    #areas-atuacao {
+        text-align: center;
+        color: #b98a52;
+        margin-top: 60px;
+        padding-bottom: 30px;
+    }
+    #areas-bg {
+        background-color: #252525;
+        padding: 20px;
+    }
+    #areas-bg h5 {
+        color: #b98a52;
+    }
+    #contato {
+        margin: 0;
+        height: 620px;
+        background-image: url('https://imgur.com/rZ3mQ3t.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    #contato-bg {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #contato-items {
+        padding: 20px;
+        background-color: rgba(20, 20, 20, 0.99);
+    }
+    #contato-items a{
+        text-decoration: none;
+        color: #FFF;
+    }
+    #contato-title {
+        color: #b98a52;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    #map-icon {
+        max-width: 25px;
+        margin-top: -10px;
+        margin-left: -5px;
+    }
+    #time-icon {
+        max-width: 20px;
+        margin-top: -10px;
+    }
+    #number-icon {
+        max-width: 20px;
+        margin-top: -10px;
+    }
+    #email-icon {
+        max-width: 25px;
+        margin-top: -10px;
+        margin-left: -2px;
+    }
+    #insta-icon {
+        max-width: 20px;
+        margin-top: -10px;
+    }
+    #footer a {
+        text-decoration: none;
+        color: rgb(178, 178, 178);
+    }
+    #footer a:hover {
+        color: #b98a52;
+    }
 }
 @media screen and (min-width: 992px) {
-.no-mp{
-    margin:0 ! important;
-    padding:0 ! important;
-}
-body {
-    background-image: url('bg.svg');
-    background-size: 100%;
-    background-position: center;
-}
-.fab{
-    position:fixed;
-    width:60px;
-    height:60px;
-    bottom:40px;
-    right:40px;
-    text-align:center;
-}
-#banner {
-    margin: 0;
-    background-image: url('https://imgur.com/wHwpVFZ.png');
-    height: 600px;
-}
-#banner-logo {
-    margin-top: 210px;
-    margin-bottom: 13px;
-    width: 500px;
-}
-#banner-text {
-    max-width: 360px;
-}
-#destaque {
-    margin-top: 60px;
-}
-#destaque .row {
-    margin-top: 50px;
-}
-h3 {
-    color: #b98a52;
-    margin-top: 120px;
-}
-#goal-icon {
-    max-width: 400px;
-}
-#justice-icon {
-    max-width: 400px;
-}
-#team-icon {
-    max-width: 450px;
-}
-#areas-atuacao {
-    text-align: center;
-    color: #b98a52;
-}
-.card {
-    height: 480px;
-    background-color: #252525;
-}
-.card-img-top{
-    max-width: 230px;
-}
-#contato {
-    margin: 0;
-    height: 620px;
-    background-image: url('https://imgur.com/rZ3mQ3t.png');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
-}
-#contato-bg {
-    padding-top: 20px;
-}
-#contato-items {
-    padding: 20px;
-    height: 485px;
-    background-color: rgba(20, 20, 20, 0.99);
-}
-#contato-items a{
-    text-decoration: none;
-    color: #FFF;
-}
-#contato-title {
-    color: #b98a52;
-    font-size: 25px;
-    font-weight: bold;
-}
-#map-icon {
-    max-width: 25px;
-    margin-top: -10px;
-    margin-left: -5px;
-}
-#time-icon {
-    max-width: 20px;
-    margin-top: -10px;
-}
-#number-icon {
-    max-width: 20px;
-    margin-top: -10px;
-}
-#email-icon {
-    max-width: 25px;
-    margin-top: -10px;
-    margin-left: -2px;
-}
-#insta-icon {
-    max-width: 20px;
-    margin-top: -10px;
-}
-#footer {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-#footer a {
-    text-decoration: none;
-    color: rgb(178, 178, 178);
-}
-#footer a:hover {
-    color: #b98a52;
-}
+    .no-mp{
+        margin:0 ! important;
+        padding:0 ! important;
+    }
+    body {
+        background-image: url('bg.svg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    #banner {
+        margin: 0;
+        background-image: url('https://imgur.com/wHwpVFZ.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 600px;
+    }
+    #banner-logo {
+        margin-top: 210px;
+        margin-bottom: 13px;
+        width: 500px;
+    }
+    #banner-text {
+        max-width: 360px;
+    }
+    #destaque {
+        margin-top: 60px;
+    }
+    #destaque .row {
+        margin-top: 50px;
+    }
+    h3 {
+        color: #b98a52;
+        margin-top: 120px;
+    }
+    #goal-icon {
+        max-width: 400px;
+    }
+    #justice-icon {
+        max-width: 400px;
+    }
+    #team-icon {
+        max-width: 450px;
+    }
+    #areas-atuacao {
+        text-align: center;
+        color: #b98a52;
+        margin-top: 60px;
+        padding-bottom: 30px;
+    }
+    #areas-bg {
+        background-color: #252525;
+        padding: 20px;
+        height: 550px;
+    }
+    #areas-bg h5 {
+        color: #b98a52;
+    }
+    #contato {
+        margin: 0;
+        padding: 20px;
+        background-image: url('https://imgur.com/rZ3mQ3t.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    #contato-items {
+        padding: 20px;
+        background-color: rgba(20, 20, 20, 0.99);
+    }
+    #contato-items a{
+        text-decoration: none;
+        color: #FFF;
+    }
+    #contato-title {
+        color: #b98a52;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    #map-icon {
+        max-width: 25px;
+        margin-top: -10px;
+        margin-left: -5px;
+    }
+    #time-icon {
+        max-width: 20px;
+        margin-top: -10px;
+    }
+    #number-icon {
+        max-width: 20px;
+        margin-top: -10px;
+    }
+    #email-icon {
+        max-width: 25px;
+        margin-top: -10px;
+        margin-left: -2px;
+    }
+    #insta-icon {
+        max-width: 20px;
+        margin-top: -10px;
+    }
+    #footer {
+        padding-top: 15px;
+    }
+    #footer a {
+        text-decoration: none;
+        color: rgb(178, 178, 178);
+    }
+    #footer a:hover {
+        color: #b98a52;
+    }
 }
