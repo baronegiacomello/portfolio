@@ -4,9 +4,10 @@
         padding:0 ! important;
     }
     body {
+        background-color: #202020;
         background-image: url('bg.svg');
         background-size: 100%;
-        background-position: contain;
+        background-position: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
