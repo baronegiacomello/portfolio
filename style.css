@@ -11,6 +11,40 @@
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
+    .loading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        background-color: #202020;
+        z-index: 2;
+        position: fixed;
+        overflow: hidden;
+    }
+    .loader {
+        display: flex;
+        width: 200px;
+        height: 200px;
+        animation: loader 2s infinite ease;
+        position: relative;
+    }
+    @keyframes loader {
+        0% {
+            transform: scale(0.5);
+        }
+        50% {
+            transform: scale(1.1);
+        }
+        100% {
+            transform: scale(0.5);
+        }
+    }
+    .navbar {
+       position: fixed;
+       z-index: 1; 
+       width: 100%;
+    }
     #banner {
         margin: 0;
         background-image: url('https://imgur.com/wHwpVFZ.png');
@@ -116,6 +150,40 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+    }
+    .loading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        background-color: #202020;
+        z-index: 2;
+        position: fixed;
+        overflow: hidden;
+    }
+    .loader {
+        display: flex;
+        width: 200px;
+        height: 200px;
+        animation: loader 2s infinite ease;
+        position: relative;
+    }
+    @keyframes loader {
+        0% {
+            transform: scale(0.5);
+        }
+        50% {
+            transform: scale(1.1);
+        }
+        100% {
+            transform: scale(0.5);
+        }
+    }
+    .navbar {
+       position: fixed;
+       width: 100%;
+       z-index: 1;
     }
     #banner {
         margin: 0;
